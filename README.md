@@ -1,26 +1,75 @@
 # stylesheets.css
-#header {
-		background:grey; 
-		color: black;
-		font-style:;
-		}
-		#about-us {
-		background: grey;
-		color: white;
-		}
-<body>
-<div class="header">
-        <h1>Next Level Design</h1>
-	</div>  
-    <p id="about-us">
-     Welcome to Next Level Design. Our company started about 5 years ago and have been providing costumers with great designs since then. We want to help everyday homeowners achieve the look they have always wanted.  
-    </p>
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Embedded Style Sheet</title>
+<link>
+    h1  {
+       text-align: center;
+       font-size: 12pt;
+       color: #000099;
+       margin-bottom: 5px;
+       text-decoration: underline;
+    }
     
-    <div class="types-of-design">
-        <p>We offer any type of design for all costumers. We can do anything from mid century to modern designs. The first step of any project is to talk to the customer. We find out what they want and change our ideas to fit their needs.</p>
-    </div>
-<div class="header">
-	<h2>Locations</h2>
-	</div>
-	
-</body>
+    table {
+       margin: 5px;
+       width: 290px;
+    }
+    
+    th {
+       padding: 3px;
+    }
+    
+    td {
+       padding-left: 8px;
+       padding-right: 8px;
+       border: 1px solid #990000;
+       background-color: #ffffcc;
+    }
+    
+    #trHeader {
+       text-decoration: underline;
+       color: #990000;
+    }
+    
+    .centerCell {
+       text-align: center;
+    }
+
+ </head>
+ <body>
+
+ <div>
+ <h1>All-time Home Run Record</h1>
+ <table>
+   <tr id="trHeader">
+     <th>Player</th>
+     <th>Home Runs</th>
+     <th>Team</th>
+   </tr>
+   <tr>
+     <td>Barry Bonds</td>
+     <td class="centerCell">762</td>
+     <td>Giants</td>
+   </tr>
+   <tr>
+     <td>Hank Aaron</td>
+     <td class="centerCell">755</td>
+     <td>Braves</td>
+   </tr>
+   <tr>
+     <td>Babe Ruth</td>
+     <td class="centerCell">714</td>
+     <td>Yankees</td>
+   </tr>
+   <tr>
+     <td>Willie Mays</td>
+     <td class="centerCell">660</td>
+     <td>Giants</td>
+   </tr>
+ </table>
+ </div>
+ </body>
+ </html>

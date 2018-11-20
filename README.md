@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Embedded Style Sheet</title>
-
+<style>
     h1  {
        text-align: center;
        font-size: 12pt;
@@ -37,7 +37,7 @@
     .centerCell {
        text-align: center;
     }
-
+</style>
  </head>
  <body>
 

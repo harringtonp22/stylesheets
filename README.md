@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Embedded Style Sheet</title>
-<link>
+
     h1  {
        text-align: center;
        font-size: 12pt;
